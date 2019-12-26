@@ -215,7 +215,7 @@ TARGET_DEVICES += tplink_archer-d50-v1
 
 define Device/tplink_archer-d7-v1
   $(Device/tplink-qca-dsl)
-  ATH_SOC := qca9558
+  SOC := qca9558
   DEVICE_MODEL := Archer D7
   DEVICE_VARIANT := v1
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ledtrig-usbport kmod-ath10k-ct ath10k-firmware-qca988x-ct
@@ -229,7 +229,7 @@ TARGET_DEVICES += tplink_archer-d7-v1
 
 define Device/tplink_archer-d7b-v1
   $(Device/tplink-qca-dsl)
-  ATH_SOC := qca9558
+  SOC := qca9558
   DEVICE_MODEL := Archer D7b
   DEVICE_VARIANT := v1
   DEVICE_PACKAGES := kmod-usb2 kmod-usb-ledtrig-usbport kmod-ath10k-ct ath10k-firmware-qca988x-ct
